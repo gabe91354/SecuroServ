@@ -1,8 +1,8 @@
 <?php
 $host = 'localhost';
 $db_name = 'securoserv';
-$username = 'root'; // Default XAMPP username
-$password = ''; // Default XAMPP password (empty)
+$username = 'root'; 
+$password = '';
 
 try {
     $conn = new PDO("mysql:host=$host;dbname=$db_name", $username, $password);
